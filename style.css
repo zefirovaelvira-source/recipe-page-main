@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Outfit", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 54%, 90%);
+    padding: 40px 20px;
+}
+h1 {
+    font-family: "Young Serif", serif;
+    color: hsl(14, 45%, 36%);
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 400;
+
+}
+h2,h3 {
+   font-family: "Young Serif", serif;
+   color: hsl(14, 45%, 36%);
+    margin-bottom: 24px;
+    text-align: left;
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 24px; 
+}
+p {
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+main {
+    background-color: white;
+    max-width: 736px;
+    padding: 40px;
+    border-radius: 24px;
+}
+ul, ol {
+    padding-left: 24px;
+    margin-bottom: 32px;
+}
+li {
+    padding-bottom: 16px;
+    margin-bottom: 12px;
+    color:  hsl(30, 10%, 34%);
+}
+li::marker {
+color: hsl(14, 45%, 36%);
+font-weight: 700;
+}
+img {
+    width: 100%;
+    display: block;
+    border-radius: 12px;
+    margin-bottom: 40px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+td {
+ padding: 12px 0;
+ border-bottom: 1px solid hsl(30, 18%, 87%);
+ text-align: left;
+}
+tr {
+    padding: 12px 32px;
+}
+tr:last-child td {
+    border-bottom: none;
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+td:last-child {
+    font-weight: 700;
+    color: hsl(14, 45%, 36%);
+    padding-left: 20px;
+}
+.prep-time {
+    background-color: hsl(330, 100%, 98%);
+    padding: 28px;
+    border-radius: 12px;
+    margin-bottom: 16px;
+}
+.prep-time p {
+color: hsl(332, 51%, 32%);
+font-weight: 700;
+font-size: 20px;
+margin-bottom: 16px;
+}
+footer {
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px 0;
+    font-size: 11px;
+    text-align: center;
+    color: hsl(228, 45%, 44%);
+}
+.attribution {
+    margin-top: 40px;
+    font-size: 11px;
+    text-align: center;
+}
+body, p, li, td {
+    font-family: "Outfit", sans-serif;
+}
